@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Org-Style Visibility Cycling for Hacker News Comments",
+  "version": "1.0",
+
+  "description": "Bla bla.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.ycombinator.com/item*"],
+      "js": ["hn-comment-shortcuts.js"]
+    }
+  ]
+
+}
